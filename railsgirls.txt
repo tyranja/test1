@@ -1,0 +1,9 @@
+mvc = model view controll
+
+view => what you see on screen (websites etc)
+models => objecte to interact with the user
+controler => conducter(dirigent) controls the model and view
+
+
+scaffold => create the models
+migrate db => create datebase with data of the models 
