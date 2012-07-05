@@ -7,3 +7,5 @@ controler => conducter(dirigent) controls the model and view
 
 scaffold => create the models
 migrate db => create datebase with data of the models 
+
+eine neue zeile
