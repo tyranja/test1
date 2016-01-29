@@ -1,1 +1,3 @@
 language: ruby
+
+sleep: 20
