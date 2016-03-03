@@ -9,3 +9,5 @@
 :mouse:
 
 :rabbit:
+
+:cat:
