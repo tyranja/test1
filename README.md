@@ -7,5 +7,3 @@
 :dog:
 
 :mouse:
-
-:cat:
