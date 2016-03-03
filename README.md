@@ -11,3 +11,5 @@
 :rabbit:
 
 :cat:
+
+:cow:
