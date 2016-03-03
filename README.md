@@ -2,16 +2,4 @@
 
 :bike:
 
-:tulip:
-
-:dog:
-
-:mouse:
-
-:rabbit:
-
-:cat:
-
-:cow:
-
-:pig:
+:heart: :dog: :mouse: :rabbit: :cat: :cow: :pig:
