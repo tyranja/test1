@@ -2,4 +2,4 @@
 
 :bike:
 
-:heart: :dog: :mouse: :rabbit: :cat: :cow: :pig: :sunny: :raining: :crying:
+:heart: :dog: :mouse: :rabbit: :cat: :cow: :pig: :sunny:
