@@ -2,4 +2,4 @@
 
 :bike:
 
-:heart: :dog: :mouse: :rabbit: :cat: :cow: :pig: :sunny: :horse:
+:heart: :dog: :mouse: :rabbit: :cat: :cow: :pig: :sunny:
