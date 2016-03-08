@@ -3,4 +3,3 @@
 :bike:
 
 :heart: :dog: :mouse: :rabbit: :cat: :cow: :pig: :sunny: :horse:
-:coffee:
