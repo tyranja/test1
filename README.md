@@ -7,4 +7,3 @@
 :car:
 :train:
 :heart:
-:geart:
