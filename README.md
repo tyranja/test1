@@ -6,4 +6,3 @@
 :cake:
 :car:
 :train:
-:heart:
