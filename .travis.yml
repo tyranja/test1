@@ -2,8 +2,4 @@ language: ruby
 
 sudo: false
 
-rvm:
-  - '2.1.5'
-
-script: true
-# sleep: 2
+rvm: 2.1.5
