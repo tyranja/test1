@@ -5,5 +5,3 @@
 :ship: :boat: :tada: :ghost: :shit: :horse: :monkey:
 :cake:
 :icecream:
-:cookie:
-kzjsskhdfskf
