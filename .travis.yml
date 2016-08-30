@@ -1,4 +1,4 @@
-sudo: required
+sudo: false
 dist: trusty
 
 language: python
@@ -9,4 +9,5 @@ install:
   pip install --upgrade pip
   
 script: 
-  ls -la
+  easy_install --version
+  python smile.py
