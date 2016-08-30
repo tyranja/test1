@@ -8,3 +8,5 @@ cache: pip
 install:
   pip install --upgrade pip
   
+script: 
+  ls -la
