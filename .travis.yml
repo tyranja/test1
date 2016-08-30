@@ -1,7 +1,10 @@
-language: ruby
+sudo: required
+dist: trusty
 
-sudo: false
+language: python
 
-rvm: 2.1.5
+cache: pip
 
-script: sleep 3
+install:
+  pip install --upgrade pip
+  
