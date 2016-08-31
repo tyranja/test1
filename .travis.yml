@@ -5,4 +5,4 @@ language: ruby
 
 
 script: 
-  echo $TRAVIS_TAG
+  - echo $TRAVIS_TAG
