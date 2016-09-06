@@ -1,13 +1,8 @@
 sudo: false
 dist: trusty
 
-language: python
+language: ruby
 
-cache: pip
-
-install:
-  pip install --upgrade pip
-
-script: 
-  easy_install --version
-  python smile.py
+before_deploy:
+  - echo "Should be shown when PR"
+  
