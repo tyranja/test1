@@ -11,3 +11,5 @@ before_deploy:
   - echo "Should NOT be shown when PR"
 
 deploy: true
+
+script: echo "after deploy"
