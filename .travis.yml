@@ -1,8 +1,13 @@
-sudo: false
-dist: trusty
-
 language: ruby
 
+sudo: false
+
+rvm:
+  - '2.1.5'
+
+script: 
+  - echo "script"
+
 before_deploy:
-  - echo "Should be shown when PR"
+  - echo "Should NOT be shown when PR"
   
