@@ -8,4 +8,4 @@ rvm:
 script: true
 
 before_deploy:
-- echo "Should NOT be shown when PR"
+  - echo "Should NOT be shown when PR"
