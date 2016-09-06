@@ -1,13 +1,13 @@
+language: ruby
+
 sudo: false
-dist: trusty
 
-language: python
-
-cache: pip
-
-install:
-  pip install --upgrade pip
+rvm:
+  - '2.1.5'
 
 script: 
-  easy_install --version
-  python smile.py
+  - echo "script"
+
+before_deploy:
+  - echo "Should NOT be shown when PR"
+  
