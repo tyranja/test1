@@ -7,5 +7,5 @@ env:
   - SCRIPT="last Script"
   - SCRIPT="ls -la"
   
-script: echo $SCRIPT
+script: $SCRIPT
   
