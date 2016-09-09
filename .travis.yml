@@ -2,8 +2,9 @@ language: ruby
 
 sudo: false
 
-
-matrix:
-  script: echo "first"
-  script: echo "second"
-
+env:
+  - SCRIPT1=echo 'Script 1'
+  - SCRIPT2=echo 'Script 2'
+  
+script: echo $SCRIPT1
+  
