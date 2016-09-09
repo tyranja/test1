@@ -3,8 +3,8 @@ language: ruby
 sudo: false
 
 env:
-  - SCRIPT1=echo 'Script 1'
-  - SCRIPT2=echo 'Script 2'
+  - SCRIPT=echo 'first Script'
+  - SCRIPT=echo 'last Script 2'
   
-script: echo $SCRIPT1
+script: $SCRIPT
   
