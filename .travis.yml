@@ -3,8 +3,8 @@ language: ruby
 sudo: false
 
 env:
-  - SCRIPT="first Script"
-  - SCRIPT="last Script"
+  - SCRIPT="echo first Script"
+  - SCRIPT="echo second Script"
   - SCRIPT="ls -la"
   
 script: $SCRIPT
