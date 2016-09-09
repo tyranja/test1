@@ -5,11 +5,7 @@ sudo: false
 rvm:
   - '2.1.5'
 
-script: true
+matrix:
+  script: echo "first"
+  script: echo "second"
 
-before_deploy:
-  - echo "Should NOT be shown when PR"
-
-deploy: true
-
-script: echo "after deploy"
