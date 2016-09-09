@@ -4,7 +4,7 @@ sudo: false
 
 env:
   - SCRIPT=echo 'first Script'
-  - SCRIPT=echo 'last Script 2'
+  - SCRIPT=echo 'last Script'
   
 script: $SCRIPT
   
