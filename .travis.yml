@@ -1,15 +1,5 @@
-language: ruby
+dist: trusty
 
-sudo: false
+sudo: required
 
-rvm:
-  - '2.1.5'
-
-script: true
-
-before_deploy:
-  - echo "Should NOT be shown when PR"
-
-deploy: true
-
-script: echo "after deploy"
+script: psql -version   
