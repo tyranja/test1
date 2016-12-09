@@ -3,4 +3,5 @@ dist: trusty
 sudo: required
 before_script:
   - psql -c 'create database travis;' -U postgres
-script: psql -version   
+  - psql -version  
+
