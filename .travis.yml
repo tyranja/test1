@@ -4,6 +4,6 @@ sudo: false
 
 script:
  - touch aaa
- - ls -la
+ - ls
  - mv aaa bbb
- - ls -la
+ - ls
