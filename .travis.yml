@@ -1,15 +1,13 @@
-language: ruby
-
-sudo: false
-
-rvm:
-  - '2.1.5'
-
-script: true
-
-before_deploy:
-  - echo "Should NOT be shown when PR"
-
-deploy: true
-
-script: echo "after deploy"
+matrix:
+  include:
+  - sudo: required
+    branches: 
+      only: 
+      - master
+  - sudo: false
+    branches: 
+      only: 
+      - diff_env
+      
+script: 
+- echo hostname
