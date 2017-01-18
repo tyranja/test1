@@ -1,9 +1,13 @@
 matrix:
   include:
   - sudo: required
-    branches: only: master
+    branches: 
+      only: 
+      - master
   - sudo: false
-    branches: only: matrix
+    branches: 
+      only: 
+      - matrix
 
 env:
   - SCRIPT="echo first Script"
