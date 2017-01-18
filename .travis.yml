@@ -1,15 +1,18 @@
-language: ruby
+matrix:
+  include:
+  - sudo: required
+    branches: 
+      only: 
+      - master
+  - sudo: false
+    branches: 
+      only: 
+      - matrix
 
-sudo: false
-
-rvm:
-  - '2.1.5'
-
-script: true
-
-before_deploy:
-  - echo "Should NOT be shown when PR"
-
-deploy: true
-
-script: echo "after deploy"
+env:
+  - SCRIPT="echo first Script"
+  - SCRIPT="echo second Script"
+  - SCRIPT="ls -la"
+  
+script: $SCRIPT
+  
