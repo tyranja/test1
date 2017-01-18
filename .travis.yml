@@ -7,12 +7,7 @@ matrix:
   - sudo: false
     branches: 
       only: 
-      - matrix
-
-env:
-  - SCRIPT="echo first Script"
-  - SCRIPT="echo second Script"
-  - SCRIPT="ls -la"
-  
-script: $SCRIPT
-  
+      - diff_env
+      
+script: 
+  - echo hostname
