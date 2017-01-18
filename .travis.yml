@@ -10,4 +10,4 @@ matrix:
       - diff_env
       
 script: 
-- echo hostname
+- echo "test1"
