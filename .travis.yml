@@ -1,6 +1,9 @@
-language: ruby
-
-sudo: false
+matrix:
+  include:
+  - sudo: required
+    branches: only: master
+  - sudo: false
+    branches: only: matrix
 
 env:
   - SCRIPT="echo first Script"
