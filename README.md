@@ -5,5 +5,5 @@
 :ship: :boat: :tada: :ghost: :shit: :horse: :monkey:
 :cake:
 cache
-
+cache now
 [![Build Status](https://travis-ci.org/tyranja/test1.svg?branch=master)](https://travis-ci.org/tyranja/test1)
