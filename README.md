@@ -5,6 +5,4 @@
 :ship: :boat: :tada: :ghost: :shit: :horse: :monkey:
 :cake:
 
-test
-
 [![Build Status](https://travis-ci.org/tyranja/test1.svg?branch=master)](https://travis-ci.org/tyranja/test1)
