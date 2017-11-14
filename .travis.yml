@@ -1,13 +1,10 @@
+language: java  
+
 matrix:
   include:
-  - sudo: required
-    branches: 
-      only: 
-      - master
-  - sudo: false
-    branches: 
-      only: 
-      - diff_env
+  - jdk: oraclejdk8
+    env: EXAMPLE_ENV_VAR=version8 
+  - jdk: oraclejdk9
+    env: EXAMPLE_ENV_VAR=version9 
       
-script: 
-- echo "test1"
+script: - if [[ "${EXAMPLE_ENV_VAR}" = "version9" ]]; then echo "HAHAHAHHA"; fi
