@@ -7,4 +7,4 @@ matrix:
   - jdk: oraclejdk9
     env: EXAMPLE_ENV_VAR=version9 
       
-script: - if [[ "${EXAMPLE_ENV_VAR}" = "version9" ]]; then echo "HAHAHAHHA"; fi
+script: echo EXAMPLE_ENV_VAR
